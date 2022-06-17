@@ -1,0 +1,39 @@
+name: amazon_clone_v3
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # network
+
+  # database
+
+  # language
+  easy_localization: ^3.0.1
+  easy_localization_loader: ^1.0.0
+
+  # core utilities
+
+  # ui utilities
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/images/

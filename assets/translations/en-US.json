@@ -1,0 +1,9 @@
+{
+    "welcome": "Hoşgeldiniz",
+    "createAccount": "Hesap Oluşturun",
+    "name": "Ad",
+    "email": "Email",
+    "password": "Şifre",
+    "signUp": "Kayıt ol",
+    "signIn": "Giriş yap"
+}
