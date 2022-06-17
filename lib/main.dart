@@ -41,6 +41,7 @@ class MyApp extends StatelessWidget {
           ),
           appBarTheme: const AppBarTheme(elevation: 0, iconTheme: IconThemeData(color: ColorVariables.iconColor))),
       onGenerateRoute: (settings) => generateRoute(settings),
+
       home: const AuthView(),
     );
   }
