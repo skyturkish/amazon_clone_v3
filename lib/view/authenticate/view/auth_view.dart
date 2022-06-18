@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:amazon_clone_v3/core/constants/color/color_constants.dart';
 import 'package:amazon_clone_v3/core/init/translations/locale_keys.g.dart';
 import 'package:amazon_clone_v3/product/enum/auth.dart';
@@ -42,6 +44,10 @@ class _AuthViewState extends State<AuthView> {
       password: _passwordController.text,
       name: _nameController.text,
     );
+  }
+
+  void signInUser() {
+    authService.signInUser(context: context, email: _emailController.text, password: _passwordController.text);
   }
 
   @override
@@ -163,7 +169,12 @@ class _AuthViewState extends State<AuthView> {
                         ),
                         CustomElevatedButton(
                           text: LocaleKeys.signIn.tr(),
-                          onTap: () {},
+                          onTap: () {
+                            if (_signInFormKey.currentState!.validate()) {
+                              print("selamlar signin'in içindeyim");
+                              signInUser();
+                            }
+                          },
                         )
                       ],
                     ),

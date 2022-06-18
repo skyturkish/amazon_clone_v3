@@ -1,9 +1,9 @@
 {
-    "welcome": "Hoşgeldiniz",
-    "createAccount": "Hesap Oluşturun",
-    "name": "Ad",
+    "welcome": "Welcome to My App!!!!",
+    "createAccount": "Create Account",
+    "name": "Name",
     "email": "Email",
-    "password": "Şifre",
-    "signUp": "Kayıt ol",
-    "signIn": "Giriş yap"
+    "password": "Password",
+    "signUp": "Sign Up",
+    "signIn": "Sign-In"
 }

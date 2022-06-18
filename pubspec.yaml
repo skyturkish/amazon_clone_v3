@@ -16,7 +16,10 @@ dependencies:
   # network
   http: ^0.13.4
 
-  # database
+  # cache
+  shared_preferences: ^2.0.15
+  #state management
+  provider: ^6.0.3
 
   # language
   easy_localization: ^3.0.1
