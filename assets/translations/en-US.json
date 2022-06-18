@@ -5,5 +5,11 @@
     "email": "Email",
     "password": "Password",
     "signUp": "Sign Up",
-    "signIn": "Sign-In"
+    "signIn": "Sign-In",
+    "hello": "Hello, ",
+    "yourOrders": "Your orders",
+    "turnSeller": "Turn Seller",
+    "logOut": "Log Out",
+    "yourWishList": "Your Wish List",
+    "seeAll": "See all !"
 }

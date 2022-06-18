@@ -8,4 +8,10 @@ abstract class LocaleKeys {
   static const password = 'password';
   static const signUp = 'signUp';
   static const signIn = 'signIn';
+  static const hello = 'hello';
+  static const yourOrders = 'yourOrders';
+  static const turnSeller = 'turnSeller';
+  static const logOut = 'logOut';
+  static const yourWishList = 'yourWishList';
+  static const seeAll = 'seeAll';
 }

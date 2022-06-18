@@ -80,7 +80,7 @@ class AuthService {
             await prefs.setString(authTokenName, jsonDecode(response.body)['token']);
             Navigator.pushNamedAndRemoveUntil(
               context,
-              NavigationConstants.HOME_VIEW,
+              NavigationConstants.ACTUAL_HOME,
               (route) => false,
             );
           });

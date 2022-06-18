@@ -5,5 +5,11 @@
     "email": "Email",
     "password": "Şifre",
     "signUp": "Kayıt ol",
-    "signIn": "Giriş yap"
+    "signIn": "Giriş yap",
+    "hello": "Merhaba, ",
+    "yourOrders": "Siparişlerin",
+    "turnSeller": "Alışverişe dön",
+    "logOut": "Çıkış yap",
+    "yourWishList": "İstek listeniz",
+    "seeAll": "Hepsini Gör"
 }

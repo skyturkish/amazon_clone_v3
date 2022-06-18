@@ -1,11 +1,11 @@
 import 'package:amazon_clone_v3/core/constants/app/app_constants.dart';
 import 'package:amazon_clone_v3/core/constants/color/color_constants.dart';
 import 'package:amazon_clone_v3/core/init/translations/language_manager.dart';
+import 'package:amazon_clone_v3/product/widget/bottombar/bottom_bar.dart';
 import 'package:amazon_clone_v3/providers/user_providers.dart';
 import 'package:amazon_clone_v3/router.dart';
 import 'package:amazon_clone_v3/view/authenticate/service/auth_service.dart';
 import 'package:amazon_clone_v3/view/authenticate/view/auth_view.dart';
-import 'package:amazon_clone_v3/view/home/view/home_view.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -14,15 +14,19 @@ void main() async {
   await _init();
   runApp(
     EasyLocalization(
-        supportedLocales: LanguageManager.instance.supportedLocales,
-        path: ApplicationConstants.TRANSLATIONS_ASSET_PATH,
-        startLocale: LanguageManager.instance.enLocale,
-        fallbackLocale: LanguageManager.instance.enLocale,
-        child: MultiProvider(providers: [
+      supportedLocales: LanguageManager.instance.supportedLocales,
+      path: ApplicationConstants.TRANSLATIONS_ASSET_PATH,
+      startLocale: LanguageManager.instance.enLocale,
+      fallbackLocale: LanguageManager.instance.enLocale,
+      child: MultiProvider(
+        providers: [
           ChangeNotifierProvider(
             create: (context) => UserProvider(),
-          )
-        ], child: const MyApp())),
+          ),
+        ],
+        child: const MyApp(),
+      ),
+    ),
   );
 }
 
@@ -63,7 +67,7 @@ class _MyAppState extends State<MyApp> {
           appBarTheme: const AppBarTheme(elevation: 0, iconTheme: IconThemeData(color: ColorVariables.iconColor))),
       onGenerateRoute: (settings) => generateRoute(settings),
 
-      home: Provider.of<UserProvider>(context).user.token.isNotEmpty ? const HomeView() : const AuthView(),
+      home: Provider.of<UserProvider>(context).user.token.isNotEmpty ? const BottomBar() : const AuthView(),
     );
   }
 }
