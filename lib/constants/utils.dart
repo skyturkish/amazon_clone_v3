@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void showSnackBar(BuildContext context, String text) {
-  GlobalKey<ScaffoldMessengerState>().currentState!.showSnackBar(
-        SnackBar(
-          content: Text(text),
-        ),
-      );
+  ScaffoldMessenger.of(context).showSnackBar(
+    SnackBar(
+      content: Text(text),
+    ),
+  );
 }
 
  // https://stackoverflow.com/questions/66833689/flutter-no-scaffoldmessenger-widget-found ----> this link fixed

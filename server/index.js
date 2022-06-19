@@ -8,7 +8,7 @@ const authRouter = require("./routes/auth");
 //INIT
 const PORT =3000
 const app = express()
-const DB = "mongodb+srv://sky:<your password>@cluster0.06r10.mongodb.net/?retryWrites=true&w=majority"
+const DB = "mongodb+srv://sky:sky123@cluster0.06r10.mongodb.net/?retryWrites=true&w=majority"
 
 // middleware
 app.use(express.json())

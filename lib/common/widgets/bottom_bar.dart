@@ -1,6 +1,6 @@
-import 'package:amazon_clone_v3/core/constants/color/color_constants.dart';
-import 'package:amazon_clone_v3/view/account/view/account_view.dart';
-import 'package:amazon_clone_v3/view/home/view/home_view.dart';
+import 'package:amazon_clone_v3/constants/color/color_constants.dart';
+import 'package:amazon_clone_v3/features/account/screens/account_view.dart';
+import 'package:amazon_clone_v3/features/home/screens/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart';
 

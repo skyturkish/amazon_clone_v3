@@ -1,4 +1,4 @@
-import 'package:amazon_clone_v3/view/authenticate/model/user_model.dart';
+import 'package:amazon_clone_v3/models/user_model.dart';
 import 'package:flutter/cupertino.dart';
 
 class UserProvider extends ChangeNotifier {

@@ -1,11 +1,11 @@
 // ignore_for_file: avoid_print
 
-import 'package:amazon_clone_v3/core/constants/color/color_constants.dart';
-import 'package:amazon_clone_v3/core/init/translations/locale_keys.g.dart';
-import 'package:amazon_clone_v3/product/enum/auth.dart';
-import 'package:amazon_clone_v3/product/widget/button/custom_elevated_button.dart';
-import 'package:amazon_clone_v3/product/widget/textfield/custom_textfield.dart';
-import 'package:amazon_clone_v3/view/authenticate/service/auth_service.dart';
+import 'package:amazon_clone_v3/constants/color/color_constants.dart';
+import 'package:amazon_clone_v3/constants/init/locale_keys.g.dart';
+import 'package:amazon_clone_v3/models/auth.dart';
+import 'package:amazon_clone_v3/common/widgets/custom_elevated_button.dart';
+import 'package:amazon_clone_v3/common/widgets/custom_textfield.dart';
+import 'package:amazon_clone_v3/features/auth/services/auth_service.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 

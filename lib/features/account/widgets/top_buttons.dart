@@ -1,5 +1,5 @@
-import 'package:amazon_clone_v3/core/init/translations/locale_keys.g.dart';
-import 'package:amazon_clone_v3/product/widget/button/account_button.dart';
+import 'package:amazon_clone_v3/constants/init/locale_keys.g.dart';
+import 'package:amazon_clone_v3/features/account/widgets/account_button.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
