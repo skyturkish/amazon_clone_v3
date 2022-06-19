@@ -7,7 +7,7 @@ import 'package:amazon_clone_v3/constants/navigation/navigation_constants.dart';
 import 'package:amazon_clone_v3/constants/error_handling.dart';
 import 'package:amazon_clone_v3/constants/utils.dart';
 import 'package:amazon_clone_v3/models/user_model.dart';
-import 'package:amazon_clone_v3/providers/user_providers.dart';
+import 'package:amazon_clone_v3/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';

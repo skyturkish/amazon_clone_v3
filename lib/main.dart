@@ -3,7 +3,7 @@ import 'package:amazon_clone_v3/constants/color/color_constants.dart';
 
 import 'package:amazon_clone_v3/constants/init/language_manager.dart';
 import 'package:amazon_clone_v3/common/widgets/bottom_bar.dart';
-import 'package:amazon_clone_v3/providers/user_providers.dart';
+import 'package:amazon_clone_v3/providers/user_provider.dart';
 import 'package:amazon_clone_v3/router.dart';
 import 'package:amazon_clone_v3/features/auth/services/auth_service.dart';
 import 'package:amazon_clone_v3/features/auth/screens/auth_view.dart';
@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    authService.getUserData(context);
+    //authService.getUserData(context);
   }
 
   @override
